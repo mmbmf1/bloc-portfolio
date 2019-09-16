@@ -80,53 +80,41 @@ p {
     color: grey;
 }
 
-.contact-me {
+.links , .project-buttons , .contact-me {
     display: flex;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-#email-button {
+.button:visited , .button:active {
+    color:#8CC63E;
+}
+
+.button {
+    display: inline-block;
     width: 100%;
-    text-align: center;
+    margin: 10px;
     background-color: #034000;
     color: #8CC63E;
+    text-align: center;
     font-size: 1em;
     font-weight: 700;
     border: 1px solid lightgrey;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer
 }
 
-#email-button:hover {
+.button:hover {
     font-weight: 700;
     background-color: white;
     color: #034000;
     border: 3px solid #034000;
 }
 
-button {
-    display: block;
+.contact-me {
+    display: flex;
     width: 100%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #034000;
-    color: #8CC63E;
-    font-family: 'Rubik', sans-serif;
-
-    font-size: 1.0em;
-    font-weight: 700;
-    border: 1px solid lightgrey;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    font-weight: 700;
-    background-color: white;
-    color: #034000;
-    border: 3px solid #034000;
+    height: 100%;
 }
 
 #project-button {
@@ -144,7 +132,6 @@ a:visited , a:active {
 .home-link:visited {
     color: white;
 }
-
 
 .project-1 {
     display: flex;
@@ -178,17 +165,6 @@ a:visited , a:active {
     float: left;
     padding: 5px;
     color: #034000;
-}
-
-.project-buttons {
-    display: block;
-    width: 100%;
-}
-
-#code-button , #quiz-button {
-    width: 25%;
-    margin-right: 5px;
-    float: left;
 }
 
 .foot {
@@ -235,9 +211,7 @@ i:hover {
         display: unset;
     }
 
-
     .home-link:hover {
-        font-size: 32px;
         text-decoration: underline;
    }
 
@@ -264,20 +238,46 @@ i:hover {
         border: none;
     }
 
+    .button {
+        width: 200px;
+        padding: 10px;
+    }
+
     .coding-reason {
         height: auto;
         padding-bottom: 30px;
     }
 
-    #project-button {
-        display: unset;
+    .links {
+        display: inline;
     }
 
-    .links button {
-        display: inline-block;
-        width: 25%;
-        white-space: nowrap;
+    #learn-more , #project-button {
+        display: inline;
+        margin: 0;
+        padding: 10px;
+        background-color: #034000;
+        color: #8CC63E;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 700;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        cursor: pointer;
     }
+
+    #learn-more:hover , #project-button:hover {
+        font-weight: 700;
+        background-color: white;
+        color: #034000;
+        border: 3px solid #034000;
+    }
+
+    #project-button {
+        width: 104.81px;
+    }
+
+
 
     .bloc-projects {
         display: none;
@@ -285,13 +285,6 @@ i:hover {
 
     .about-me {
         display: none;
-    }
-
-    #email-button {
-        width: unset;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
     }
 
     .foot-wrap {
