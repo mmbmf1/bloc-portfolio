@@ -80,15 +80,41 @@ p {
     color: grey;
 }
 
+.contact-me {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#email-button {
+    width: 100%;
+    text-align: center;
+    background-color: #034000;
+    color: #8CC63E;
+    font-size: 1em;
+    font-weight: 700;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#email-button:hover {
+    font-weight: 700;
+    background-color: white;
+    color: #034000;
+    border: 3px solid #034000;
+}
+
 button {
     display: block;
     width: 100%;
-    margin: 20px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: #034000;
     color: #8CC63E;
+    font-family: 'Rubik', sans-serif;
+
     font-size: 1.0em;
     font-weight: 700;
     border: 1px solid lightgrey;
@@ -101,7 +127,6 @@ button:hover {
     background-color: white;
     color: #034000;
     border: 3px solid #034000;
-    transform: scale(1.03);
 }
 
 #project-button {
@@ -112,10 +137,14 @@ a:link {
     text-decoration: none;
 }
 
-button:visited , button:focus , button:active {
-    border: none;
-    outline: 0;
+a:visited , a:active {
+    color: inherit;
 }
+
+.home-link:visited {
+    color: white;
+}
+
 
 .project-1 {
     display: flex;
@@ -181,7 +210,6 @@ button:visited , button:focus , button:active {
 
 i:hover {
     color: #8CC63E;
-    transform: scale(2.0);
 }
 
 @media screen and (min-width:769px) {
@@ -207,10 +235,11 @@ i:hover {
         display: unset;
     }
 
+
     .home-link:hover {
         font-size: 32px;
         text-decoration: underline;
-    }
+   }
 
     .banner {
         height: 100%;
@@ -236,7 +265,8 @@ i:hover {
     }
 
     .coding-reason {
-        height: 350px;
+        height: auto;
+        padding-bottom: 30px;
     }
 
     #project-button {
@@ -255,6 +285,13 @@ i:hover {
 
     .about-me {
         display: none;
+    }
+
+    #email-button {
+        width: unset;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
     }
 
     .foot-wrap {
