@@ -133,7 +133,7 @@ a:visited , a:active {
     color: white;
 }
 
-.project-1 {
+.project-container {
     display: flex;
     flex-direction: column;
 }
