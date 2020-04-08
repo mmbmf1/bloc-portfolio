@@ -1,107 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="A collection of work from Michael Mace">
-        <title >Michael Mace | Portfolio</title>
-        <link rel="stylesheet" href="main.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Poly|Roboto+Slab&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://kit.fontawesome.com/4c86703401.js"></script>
-    </head>
-    <body>
-        <header>
-            <div class="banner"></div>
-            <div class="nav">
-                <div class="nav-wrap">
-                    <img src="https://github.com/mmbmf1/bloc-portfolio/blob/master/images/20180316_141131.jpg?raw=true" alt="michael mace profile picture">
-                    <a href="index.html" class="home-link">Michael Mace</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="Michael Mace" content="A collection of work" />
+    <title>Michael Mace | Portfolio</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat:wght@700&family=Palanquin:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4c86703401.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="index.html" class="home-link" id="home-link">Michael Mace</a>
+        <a href="#project-link" id="nav-project-button" class="nav-link"
+          >Projects</a
+        >
+        <a href="#about-link" id="nav-learn-more" class="nav-link">About Me</a>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrap">
+        <section class="main-page">
+          <p>
+            I am a Full Stack Developer who is currently based in the Kansas
+            City Area.
+            <br />
+            <br />
+            I love learning new things and pride myself in simple, efficient
+            solutions to problems. Feel free to contact me or browse some of my
+            projects using the links below.
+          </p>
+          <div class="links">
+            <a href="#about-link" id="learn-more" class="button">Learn More</a>
+            <a href="#project-link" id="project-button" class="button"
+              >Projects</a
+            >
+          </div>
+        </section>
+        <section class="bloc-projects">
+          <div class="projects-wrap">
+            <a name="project-link"></a>
+            <div class="projects">
+              <div class="project-container">
+                <div class="img-container">
+                  <img
+                    id="quizapp"
+                    src="https://github.com/mmbmf1/bloc-portfolio/blob/master/images/project-1.jpg?raw=true"
+                    alt="new parent quiz app screenshot"
+                  />
                 </div>
-                <div class="nav-foot">
-                    <ul class="icons">
-                        <li><a href="https://www.linkedin.com/in/michael-mace-490404186/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/mmbmf1/" target="_blank"><i class="fab fa-github"></i></a></li>
-                    </ul>
+                <div class="project-desc">
+                  <h3>New Parent Quiz App</h3>
+                  <ul class="tech-icons">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3"></i></li>
+                    <li><i class="fab fa-js"></i></li>
+                  </ul>
+                  <p>
+                    The New Parent quiz app prompts users thorugh a set of
+                    questions with feedback about their score along the way. A
+                    summary of the complete quiz is given at the end.
+                  </p>
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/mmbmf1/quiz-app"
+                      target="_blank"
+                      class="button"
+                      >Code</a
+                    >
+                    <a
+                      href="https://mmbmf1.github.io/quiz-app/"
+                      target="_blank"
+                      class="button"
+                      >Quiz</a
+                    >
+                  </div>
                 </div>
-            </div>
-        </header>
-        <main>
-            <div class="main-wrap">
-                <section class="coding-reason">
-                    <h2>I am an asipiring developer enrolled in the Full Stack Web Development program at Bloc</h2> 
-                    <p>I enjoy coding because it gives me an opportunity to solve real world problems using technology. I love learning new technologies that I can utilize in my professional & personal life.</p>
-                    <div class="links">
-                        <a href="#about-link" id="learn-more" class="button">Learn More</a>
-                        <button type="button" id="project-button">Projects</button>
-                    </div>
-                </section>
-                <section class="bloc-projects">
-                    <div class="projects-wrap">
-                        <a name="project-link"></a>
-                        <h2>Recent Work</h2>
-                        <div class="projects">
-                            <div class="project-container">
-                                <div class="img-container">
-                                    <img id="quizapp" src="https://github.com/mmbmf1/bloc-portfolio/blob/master/images/project-1.jpg?raw=true" alt="new parent quiz app screenshot">
-                                </div>
-                                <div class="project-desc">
-                                    <h3>New Parent Quiz App</h3>
-                                    <ul class="tech-icons">
-                                        <li><i class="fab fa-html5"></i></li>
-                                        <li><i class="fab fa-css3"></i></li>
-                                        <li><i class="fab fa-js"></i></li>
-                                    </ul>
-                                    <p>The New Parent quiz app prompts users thorugh a set of questions with feedback about their score along the way. A summary of the complete quiz is given at the end. </p>
-                                    <div class="project-buttons">
-                                        <a href="https://github.com/mmbmf1/quiz-app" target="_blank" class="button">Code</a>
-                                        <a href="https://mmbmf1.github.io/quiz-app/" target="_blank" class="button">Quiz</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-container">
-                                <div class="img-container">
-                                    <img src="https://github.com/mmbmf1/api-hack/blob/master/images/landing_page.jpg?raw=true" alt="hiking app screenshot" id="hikingapp">
-                                </div>
-                                <div class="project-desc">
-                                    <h3>Trail Finder App</h3>
-                                    <ul class="tech-icons">
-                                        <li><i class="fab fa-html5"></i></li>
-                                        <li><i class="fab fa-css3"></i></li>
-                                        <li><i class="fab fa-js"></i></li>
-                                    </ul>
-                                    <p>A user can input a location (city, state or zip code), and a list of 15 neaby trails will display with some brief info. A link to additional trail info and the 3 day forecast for the trail is also displayed.</p>
-                                    <div class="project-buttons">
-                                        <a href="https://github.com/mmbmf1/api-hack" target="_blank" class="button">Code</a>
-                                        <a href="https://mmbmf1.github.io/api-hack/" target="_blank" class="button">Hiking App</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="about-me">
-                    <a name="about-link"></a>
-                    <h2>About Me</h2>
-                    <p>I left a career in manufacturing to become a web developer. When I am not learning to code, I can be found outdoors hiking, backpacking or canoeing. I also enjoy trying new restaurants with my wife, entertaining our labradors or playing video games.</p>
-                    <div class="contact-me">
-                        <a href="mailto:mmbmf.mm@gmail.com" id="email-button" class="button">Contact Me</a>
-                    </div>
-                </section>
-            </div>
-        </main>
-        <footer>
-            <div class="foot-wrap">
-                <div class="foot">
-                    <ul class="icons">
-                        <li><a href="https://www.linkedin.com/in/michael-mace-490404186/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/mmbmf1/" target="_blank"><i class="fab fa-github"></i></a></li>
-                    </ul>
+              </div>
+              <div class="project-container">
+                <div class="img-container">
+                  <img
+                    src="https://github.com/mmbmf1/api-hack/blob/master/images/landing_page.jpg?raw=true"
+                    alt="hiking app screenshot"
+                    id="hikingapp"
+                  />
                 </div>
+                <div class="project-desc">
+                  <h3>Trail Finder App</h3>
+                  <ul class="tech-icons">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3"></i></li>
+                    <li><i class="fab fa-js"></i></li>
+                  </ul>
+                  <p>
+                    A user can input a location (city, state or zip code), and a
+                    list of 15 neaby trails will display with some brief info. A
+                    link to additional trail info and the 3 day forecast for the
+                    trail is also displayed.
+                  </p>
+                  <div class="project-buttons">
+                    <a
+                      href="https://github.com/mmbmf1/api-hack"
+                      target="_blank"
+                      class="button"
+                      >Code</a
+                    >
+                    <a
+                      href="https://mmbmf1.github.io/api-hack/"
+                      target="_blank"
+                      class="button"
+                      >Hiking App</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
-        <script src="index.js"></script>
-    </body>
+          </div>
+        </section>
+        <section class="about-me">
+          <a name="about-link"></a>
+          <!-- <h2>About Me</h2> -->
+          <p>
+            In 2019 I left a career in manufacturing to become a web developer.
+            When I am not learning to code I am spending time with my son,enjoy
+            trying new restaurants with my wife, barbequing, entertaining our
+            labradors or playing video games. I am currently looking for work
+            and can be contacted via the link below:
+          </p>
+          <div class="contact-me">
+            <a href="mailto:mmbmf.mm@gmail.com" id="email-button" class="button"
+              >Contact Me</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="foot-wrap">
+        <div class="foot">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/michael-mace-490404186/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/mmbmf1/" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
