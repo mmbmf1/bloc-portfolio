@@ -17,24 +17,19 @@
   }
   .nav {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
     margin: 0 30px;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 15px 0;
     border-bottom: 2px solid #fff;
   }
   .home-link {
-    margin: 10px 30px 15px 0;
+    margin: 10px 10px 15px 0;
     padding-bottom: 5px;
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
     border-bottom: 3px solid #fff;
   }
   .home-link:visited {
     color: #fff;
-  }
-  .main-wrap {
-    margin-top: 35%;
   }
   section {
     margin: 60px 20px;
@@ -46,7 +41,7 @@
   }
   .about-me {
     display: none;
-    margin-top: 100px;
+    margin-top: 30%;
   }
   h2 {
     margin-top: 0;
@@ -58,6 +53,10 @@
     margin: 20px 0 20px 0;
     letter-spacing: 0.8px;
     font-size: 0.9em;
+  }
+
+  .main-page {
+    margin-top: 30%;
   }
   .contact-me,
   .links,
@@ -93,13 +92,13 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .contact-me {
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
   a:link {
     text-decoration: none;
+  }
+
+  .nav-link-container {
+    flex: 1;
+    text-align: end;
   }
   .nav-link {
     margin-right: 10px;
@@ -113,19 +112,16 @@
     flex-direction: column;
     margin: 90px 0;
     opacity: 1;
-    /* min-height: 25vh; */
   }
 
   #app,
   .img-container,
   .project-desc {
     width: 100%;
-    height: 80%;
     margin-bottom: 10px;
   }
   .project-desc {
     width: 100%;
-    height: 100%;
   }
   .project-desc h3 {
     margin: 0;
@@ -181,7 +177,89 @@
 }
 
 @media screen and (min-width: 768px) {
-  .main-wrap {
-    margin-top: 15%;
+  .home-link {
+    font-size: 32px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .main-page p,
+  .about-me p {
+    max-width: 400px;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  .bloc-projects {
+    margin-top: 20%;
+  }
+
+  .links {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-link {
+    font-size: 27px;
+  }
+  .home-link {
+    font-size: 32 px;
+  }
+
+  .bloc-projects {
+    margin-top: 20%;
+  }
+
+  .main-page p,
+  .about-me p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .links {
+    max-width: 400px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-me {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-container {
+    flex-direction: unset;
+  }
+
+  .projects-wrap {
+    padding: 0 60px;
+  }
+
+  #app {
+    width: 80%;
+  }
+
+  .about-me,
+  .main-page {
+    margin-top: 20%;
+  }
+
+  .about-me p,
+  .main-page p {
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .contact-me {
+    margin-top: 30px;
   }
 }

@@ -5,7 +5,7 @@ const STORE = [
     project_title: "Ride Boost",
     project_tech_txt_1: "PostgreSQL",
     project_tech_txt_2: "Express.js",
-    project_tech: ["fab fa-react", "fab fa-node"],
+    project_tech: ["fab fa-react", "fab fa-node", "fab fa-css3"],
     project_description:
       "Ride Boost a ride share driver companion app. The app gives drivers access to real-time weather data, arriving & departing flight information and local events near the driver.",
     reop_link: "https://github.com/mmbmf1/rideboost-app",
@@ -18,7 +18,7 @@ const STORE = [
     project_title: "backpackd",
     project_tech_txt_1: "PostgreSQL",
     project_tech_txt_2: "Express.js",
-    project_tech: ["fab fa-react", "fab fa-node"],
+    project_tech: ["fab fa-react", "fab fa-node", "fab fa-css3"],
     project_description:
       "backpackd allows a user to create and edit lists of backpacks. Items and their weight can be added to a backpack to calculate the total weight. Backpacks can also be deleted.",
     reop_link: "https://github.com/mmbmf1/backpackd-app",

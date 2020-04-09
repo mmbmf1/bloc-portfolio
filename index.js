@@ -1,8 +1,6 @@
 //render projects
 function renderProjects() {
-  // console.log(STORE);
   STORE.map((project) => {
-    // console.log(project.project_title);
     $(".projects").append(`<div class="project-container">
                 <div class="img-container">
                   <img
@@ -34,7 +32,7 @@ function renderProjects() {
                       href="${project.live_link}"
                       target="_blank"
                       class="button"
-                      >Quiz</a
+                      >Live</a
                     >
                   </div>
                 </div>
@@ -74,17 +72,15 @@ function clickProjects() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-project-button").css({
       "border-bottom": "3px solid white",
-      "font-size": "16px",
+      "font-size": "2.0vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-learn-more").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $("#home-link").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $(".bloc-projects").fadeIn(1000);
@@ -98,17 +94,15 @@ function navClickProjects() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-project-button").css({
       "border-bottom": "3px solid white",
-      "font-size": "16px",
+      "font-size": "2vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-learn-more").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $("#home-link").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $(".bloc-projects").fadeIn(1000);
@@ -123,17 +117,15 @@ function clickLearnMore() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-learn-more").css({
       "border-bottom": "3px solid white",
-      "font-size": "16px",
+      "font-size": "2vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-project-button").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $("#home-link").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $(".main-page").css("display", "none");
@@ -147,17 +139,15 @@ function navClickLearnMore() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-learn-more").css({
       "border-bottom": "3px solid white",
-      "font-size": "16px",
+      "font-size": "2vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-project-button").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $("#home-link").css({
       "border-bottom": "none",
-      "font-size": "12px",
       "font-family": "Hind, sans-serif",
     });
     $(".main-page").css("display", "none");
