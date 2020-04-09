@@ -72,7 +72,7 @@ function clickProjects() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-project-button").css({
       "border-bottom": "3px solid white",
-      "font-size": "2.0vmax",
+      "font-size": "2.5vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-learn-more").css({
@@ -94,7 +94,7 @@ function navClickProjects() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-project-button").css({
       "border-bottom": "3px solid white",
-      "font-size": "2vmax",
+      "font-size": "2.5vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-learn-more").css({
@@ -117,7 +117,7 @@ function clickLearnMore() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-learn-more").css({
       "border-bottom": "3px solid white",
-      "font-size": "2vmax",
+      "font-size": "2.5vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-project-button").css({
@@ -139,7 +139,7 @@ function navClickLearnMore() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
     $("#nav-learn-more").css({
       "border-bottom": "3px solid white",
-      "font-size": "2vmax",
+      "font-size": "2.5vmax",
       "font-family": "Montserrat, sans-serif",
     });
     $("#nav-project-button").css({
