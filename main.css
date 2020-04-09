@@ -43,16 +43,24 @@
     display: none;
     margin-top: 30%;
   }
+  h2 {
+    margin-top: 0;
+    font-family: Hind, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
   .main-wrap p {
     margin: 20px 0 20px 0;
     letter-spacing: 0.8px;
     font-size: 0.9em;
   }
+
   .main-page {
     margin-top: 30%;
   }
   .contact-me,
-  .links {
+  .links,
+  .project-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +78,7 @@
     border-radius: 4px;
     cursor: pointer;
   }
+
   .button:hover {
     display: inline-block;
     width: 30%;
@@ -77,15 +86,16 @@
     text-align: center;
     font-size: 0.8em;
     font-weight: 700;
-    color: #fff;
+    color: white;
     background-color: #042825;
-    border: 1px solid #fff;
+    border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
   }
   a:link {
     text-decoration: none;
   }
+
   .nav-link-container {
     flex: 1;
     text-align: end;
@@ -102,6 +112,40 @@
     flex-direction: column;
     margin: 90px 0;
     opacity: 1;
+  }
+
+  #app,
+  .img-container,
+  .project-desc {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .project-desc {
+    width: 100%;
+  }
+  .project-desc h3 {
+    margin: 0;
+    border-bottom: 1px solid #fff;
+  }
+  .project-desc p {
+    margin: 15px 0;
+    font-size: 0.8em;
+    letter-spacing: 0.8px;
+  }
+  .tech-icons {
+    margin: 0;
+    display: inline;
+    list-style: none;
+  }
+  .tech-icons li {
+    float: left;
+    margin-top: 5px;
+    padding: 5px 5px 5px 0;
+    color: #fff;
+  }
+
+  .tech-txt {
+    font-size: small;
   }
   footer {
     position: fixed;
@@ -131,15 +175,18 @@
     color: #fff;
   }
 }
+
 @media screen and (min-width: 768px) {
   .home-link {
     font-size: 32px;
   }
+
   .nav-link {
     font-size: 20px;
   }
-  .about-me p,
-  .main-page p {
+
+  .main-page p,
+  .about-me p {
     max-width: 400px;
     margin-top: 30%;
     margin-left: auto;
@@ -149,12 +196,14 @@
   .bloc-projects {
     margin-top: 20%;
   }
+
   .links {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .nav-link {
     font-size: 27px;
@@ -162,69 +211,55 @@
   .home-link {
     font-size: 32 px;
   }
+
   .bloc-projects {
     margin-top: 20%;
   }
-  .about-me p,
-  .main-page p {
+
+  .main-page p,
+  .about-me p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .links {
     max-width: 400px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .contact-me {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .project-container {
     flex-direction: unset;
   }
+
   .projects-wrap {
     padding: 0 60px;
   }
+
+  #app {
+    width: 80%;
+  }
+
   .about-me,
   .main-page {
     margin-top: 20%;
   }
+
   .about-me p,
   .main-page p {
     margin-top: 20%;
     text-align: center;
   }
+
   .contact-me {
     margin-top: 30px;
   }
-}
-@font-face {
-  font-family: Hind;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Hind Regular"), local("Hind-Regular"),
-    url(https://fonts.gstatic.com/s/hind/v10/5aU69_a8oxmIRG4.ttf)
-      format("truetype");
-}
-@font-face {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf)
-      format("truetype");
-}
-@font-face {
-  font-family: Palanquin;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Palanquin Bold"), local("Palanquin-Bold"),
-    url(https://fonts.gstatic.com/s/palanquin/v5/9XUilJ90n1fBFg7ceXwUyn5oxA.ttf)
-      format("truetype");
 }
