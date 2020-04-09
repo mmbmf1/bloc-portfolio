@@ -1,6 +1,7 @@
 const STORE = [
   {
-    img_src: "",
+    img_src:
+      "https://raw.githubusercontent.com/mmbmf1/bloc-portfolio/master/images/rideboost_landing_page.jpg",
     project_title: "Ride Boost",
     project_tech_txt_1: "PostgreSQL",
     project_tech_txt_2: "Express.js",
@@ -12,7 +13,8 @@ const STORE = [
   },
 
   {
-    img_src: "",
+    img_src:
+      "https://github.com/mmbmf1/bloc-portfolio/blob/master/images/backpackd_landing_page.jpg?raw=true",
     project_title: "backpackd",
     project_tech_txt_1: "PostgreSQL",
     project_tech_txt_2: "Express.js",
@@ -24,7 +26,8 @@ const STORE = [
   },
 
   {
-    img_src: "",
+    img_src:
+      "https://github.com/mmbmf1/bloc-portfolio/blob/master/images/trailbuddy_landing_page.jpg?raw=true",
     project_title: "Trail Buddy",
     project_tech_txt_1: "",
     project_tech_txt_2: "",
@@ -36,7 +39,8 @@ const STORE = [
   },
 
   {
-    img_src: "",
+    img_src:
+      "https://github.com/mmbmf1/bloc-portfolio/blob/master/images/quiz_app.png?raw=true",
     project_title: "Quiz App",
     project_tech_txt_1: "",
     project_tech_txt_2: "",
