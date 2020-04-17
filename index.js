@@ -23,7 +23,7 @@ function renderProjects() {
                   </p>
                   <div class="project-buttons">
                     <a
-                      href="${project.reop_link}"
+                      href="${project.repo_link}"
                       target="_blank"
                       class="button"
                       >Code</a
