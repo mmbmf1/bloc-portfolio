@@ -22,6 +22,17 @@
     padding: 10px 0 15px 0;
     border-bottom: 2px solid #fff;
   }
+
+  .about-me div {
+    text-align: center;
+  }
+
+  .about-me div img {
+    width: 75px;
+    margin-right: 10px;
+    border-radius: 100px;
+  }
+
   .home-link {
     margin: 10px 10px 15px 0;
     padding-bottom: 5px;
@@ -213,7 +224,7 @@
   }
 
   .bloc-projects {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .main-page p,
@@ -248,18 +259,35 @@
     width: 80%;
   }
 
-  .about-me,
   .main-page {
     margin-top: 20%;
   }
 
-  .about-me p,
+  .about-me {
+    margin-top: 15%;
+  }
+
   .main-page p {
     margin-top: 20%;
     text-align: center;
   }
+  .about-me p {
+    margin-top: 1%;
+  }
 
   .contact-me {
     margin-top: 30px;
+  }
+
+  .about-me div img {
+    width: 175px;
+  }
+
+  .fa-linkedin:hover,
+  .fa-github:hover {
+    color: #042825;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
   }
 }
