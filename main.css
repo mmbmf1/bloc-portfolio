@@ -22,17 +22,14 @@
     padding: 10px 0 15px 0;
     border-bottom: 2px solid #fff;
   }
-
   .about-me div {
     text-align: center;
   }
-
   .about-me-img img {
     width: 75px;
     margin-right: 10px;
     border-radius: 100px;
   }
-
   .home-link {
     margin: 10px 10px 15px 0;
     padding-bottom: 5px;
@@ -66,7 +63,6 @@
     letter-spacing: 0.8px;
     font-size: 0.9em;
   }
-
   .main-page {
     margin-top: 30%;
   }
@@ -90,7 +86,6 @@
     border-radius: 4px;
     cursor: pointer;
   }
-
   .button:hover {
     display: inline-block;
     width: 30%;
@@ -107,14 +102,12 @@
   a:link {
     text-decoration: none;
   }
-
   .nav-link-container {
     flex: 1;
     text-align: right;
   }
   .nav-link {
     margin-right: 10px;
-
     color: #fff;
   }
   .nav-link:visited {
@@ -126,7 +119,6 @@
     margin: 90px 0;
     opacity: 1;
   }
-
   #app,
   .img-container,
   .project-desc {
@@ -156,7 +148,6 @@
     padding: 5px 5px 5px 0;
     color: #fff;
   }
-
   .tech-txt {
     font-size: small;
   }
@@ -187,16 +178,13 @@
     color: #fff;
   }
 }
-
 @media screen and (min-width: 768px) {
   .home-link {
     font-size: 32px;
   }
-
   .nav-link {
     font-size: 20px;
   }
-
   .main-page p,
   .about-me p {
     max-width: 400px;
@@ -214,7 +202,6 @@
     margin-right: auto;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .nav-link {
     font-size: 2.1vmax;
@@ -222,51 +209,41 @@
   .home-link {
     font-size: 2.1vmax;
   }
-
   .bloc-projects {
     margin-top: 10%;
   }
-
   .main-page p,
   .about-me p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .links {
     max-width: 400px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .contact-me {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .project-container {
     flex-direction: unset;
   }
-
   .projects-wrap {
     padding: 0 60px;
   }
-
   #app {
     width: 80%;
   }
-
   .main-page {
     margin-top: 20%;
   }
-
   .about-me {
     margin-top: 15%;
   }
-
   .main-page p {
     margin-top: 20%;
     text-align: center;
@@ -274,15 +251,12 @@
   .about-me p {
     margin-top: 1%;
   }
-
   .contact-me {
     margin-top: 30px;
   }
-
   .about-me-img img {
     width: 175px;
   }
-
   .fa-linkedin:hover,
   .fa-github:hover {
     color: #042825;
