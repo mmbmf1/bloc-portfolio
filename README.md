@@ -1,3 +1,3 @@
-![Last updated](https://img.shields.io/github/last-commit/{mmbmf1}/{bloc-portfolio})
+![Last updated](https://img.shields.io/github/last-commit/mmbmf1/bloc-portfolio)
 
-[Live link](https://mmbmf1.github.io/bloc-portfolio/#project-link)
+<a href="https://mmbmf1.github.io/bloc-portfolio/#project-link" target="_blank">Live link</a>
